@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+table{
+    border: 2px solid black;
+}
+.column {
+    background-color: rgb(157, 223, 157);
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+#task2{
+    position: absolute;
+    top: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+#app{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.add{
+    margin: 10px;
+    background-color: rgb(157, 223, 157);
+}
+
+textarea {
+    resize: none;
+    height: 50px;
+}
